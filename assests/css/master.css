@@ -1,0 +1,158 @@
+
+html, body{
+    margin: 0;
+    font: normal 28px/1.4em Arial;
+}
+header{
+    position: relative;
+    background: url('../images/Grey\ The\ Stories\ of\ Our\ Hero\ Youtube\ Thumbnail.jpg');
+    background-size: cover;
+    min-height: 500px;
+}
+
+.tex{
+    color: yellow; font-size: 40px;
+}
+
+#tex{
+    font-size: 30px;
+}
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 10px 20px;
+   
+}
+
+
+
+nav .logo{
+    
+    width: 40px;
+    height: 40px;
+    background: url('../images/logo.png') no-repeat center center;
+    background-size: 90%;
+   
+   
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    
+    padding: 10px 13px;
+}
+
+nav .search{
+
+    display: inline-block; 
+    
+    
+    float: right;
+    padding: 5px;
+    margin: 8px;
+    border: 5px solid rgb(12, 65, 47);
+    background-color: aqua;
+    color: rgb(17, 2, 2);
+
+}
+nav .search:focus{
+    outline: none;
+    border-color: rgb(181, 235, 177);
+}
+
+nav ul li a{
+   
+   
+    font-size: 20px;
+    color: rgb(245, 245, 245);
+    
+}
+.wrapper {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing:border-box ;
+    
+}
+
+img src{
+
+    width: 100px;
+    height: 100px;
+}
+
+header .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+    max-width: 1200px;
+    color: azure;
+    text-align: center;
+   
+   
+
+}
+
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    min-height: 40vh;
+}
+
+aside{
+    background-color: rgb(123, 240, 14);
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(24, 24, 109);
+    color:azure;
+}
+footer ul {
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;;
+}
+
+.copyright{
+    border-top: 1px solid coral;
+    background-color: rgb(0, 0, 0);
+    font-size: 50%;
+}
+
+.copyright p{
+   
+}
+
+.flexbox{
+    display: flex;
+    width: 100%;
+}
+
+.flex.flex1 {
+    flex: 1;
+}
+
+.flex.flexb {
+    flex: 2;
+}
+.flex.flex2 {
+    flex: 1;
+}
+.flex.flex3{
+    flex: 3;
+}
