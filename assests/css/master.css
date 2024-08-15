@@ -156,3 +156,12 @@ footer ul {
 .flex.flex3{
     flex: 3;
 }
+@media only screen and (max-width: 768px){
+
+    body{
+        .flexbox, .flex {
+            display:block;
+            width: 100%;
+        }
+    }
+}
