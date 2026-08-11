@@ -264,7 +264,7 @@
                 </div>
                 <div class="lg:w-1/2 relative">
                     <div class="absolute inset-0 bg-wens-green transform rounded translate-x-4 translate-y-4"></div>
-                    <img src="https://images.unsplash.com/photo-1569098644584-210bcd375b59?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="WensDoc Professional Services" class="rounded shadow-2xl relative z-10 w-full object-cover h-[500px]">
+                    <img src="https://wensdoc.com/storage/ebc3022f-66e5-452f-9c93-84031d0c9b2b.png" alt="WensDoc Professional Services" class="rounded shadow-2xl relative z-10 w-full object-cover h-[500px]">
                 </div>
             </div>
         </div>
