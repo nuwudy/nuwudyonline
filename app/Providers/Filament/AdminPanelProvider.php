@@ -68,8 +68,7 @@ class AdminPanelProvider extends PanelProvider
                     ->pluralLabel('Media')
                     ->navigationIcon('heroicon-o-photo')
                     ->navigationGroup('Content')
-                    ->navigationSort(3)
-                    ->navigationCountBadge(),
+                    ->navigationSort(3),
             ]);
     }
 }
