@@ -13,4 +13,5 @@ Route::prefix('services')->name('services.')->group(function () {
     Route::get('/visa-consultancy', [PageController::class, 'visa'])->name('visa');
     Route::get('/travel-and-tours', [PageController::class, 'travel'])->name('travel');
     Route::get('/medical-tourism', [PageController::class, 'medical'])->name('medical');
+    Route::get('/apostille-services', [PageController::class, 'apostille'])->name('apostille');
 });

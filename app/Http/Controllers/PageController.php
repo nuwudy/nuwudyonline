@@ -40,4 +40,9 @@ class PageController extends Controller
     {
         return view('services.show', ['title' => 'Medical Tourism', 'service' => 'medical']);
     }
+
+    public function apostille()
+    {
+        return view('services.show', ['title' => 'Apostille Services', 'service' => 'apostille']);
+    }
 }

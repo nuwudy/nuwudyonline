@@ -129,10 +129,10 @@
                     Trusted by Travelers Worldwide
                 </span>
                 <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-6 leading-tight text-wens-blue">
-                    Simplifying Your <span class="text-wens-green">Global Visas</span>, Attestation & Travel Needs
+                    Simplifying Your <span class="text-wens-green">Global Visas</span>, Attestation, Apostille & Travel Needs
                 </h1>
                 <p class="text-xl text-wens-dark mb-10 max-w-2xl leading-relaxed">
-                    Fast, reliable, and expert services since 2017. From Dataflow verification to Umrah visas and worldwide tour packages, we handle the complexity so you don't have to.
+                    Fast, reliable, and expert services since 2017. From Apostille and Dataflow verification to Umrah visas and worldwide tour packages, we handle the complexity so you don't have to.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
                     <a href="{{ route('services.attestation') }}" class="bg-wens-blue hover:bg-wens-blue-hover text-white px-8 py-4 rounded font-bold text-lg shadow-md transition-all duration-300 flex items-center justify-center text-center">
@@ -155,52 +155,68 @@
                 <p class="text-lg text-wens-dark">Comprehensive solutions tailored for your global aspirations.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
                 <!-- Attestation -->
-                <a href="{{ route('services.attestation') }}" class="group bg-white rounded p-8 border border-gray-100 hover:border-wens-green shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden">
+                <a href="{{ route('services.attestation') }}" class="group bg-white rounded-xl md:rounded p-4 md:p-6 border border-gray-300 hover:border-wens-green shadow-md hover:shadow-xl hover:-translate-y-1 md:hover:-translate-y-2 transition-all duration-300 relative overflow-hidden flex flex-col h-full">
                     <div class="absolute top-0 left-0 w-1 h-full bg-wens-blue group-hover:bg-wens-green transition-colors"></div>
-                    <div class="w-14 h-14 bg-wens-light text-wens-blue rounded flex items-center justify-center mb-6 group-hover:text-wens-green transition-colors">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <div class="w-10 h-10 md:w-12 md:h-12 bg-wens-light text-wens-blue rounded-lg flex items-center justify-center mb-3 md:mb-5 group-hover:text-wens-green group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <div class="flex items-center gap-2 mb-3">
-                        <span class="bg-wens-blue text-white rounded px-2 py-0.5 text-xs font-bold">DOC</span>
-                        <h3 class="text-xl font-bold text-wens-blue">Attestation & Dataflow</h3>
+                    <div class="flex flex-col gap-1 mb-2">
+                        <span class="bg-wens-blue text-white rounded px-1.5 py-0.5 text-[8px] md:text-[10px] font-bold w-fit">DOC</span>
+                        <h3 class="text-sm md:text-lg font-bold text-wens-blue leading-tight">Attestation & Dataflow</h3>
                     </div>
-                    <p class="text-wens-dark mb-4">Educational, Personal, Commercial Certificate Attestation and Medical PSV Dataflow Verification.</p>
-                    <span class="text-wens-green font-bold flex items-center gap-1 group-hover:translate-x-2 transition-transform">
-                        Learn more <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    <p class="text-xs md:text-sm text-wens-dark mb-3 md:mb-4 line-clamp-2 md:line-clamp-3 flex-grow">Educational, Personal, Commercial Certificate Attestation and Medical PSV Dataflow Verification.</p>
+                    <span class="text-wens-green text-xs md:text-sm font-bold flex items-center gap-1 group-hover:translate-x-1 md:group-hover:translate-x-2 transition-transform mt-auto">
+                        Learn more <svg class="w-3 h-3 md:w-3.5 md:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </span>
+                </a>
+
+                <!-- Apostille -->
+                <a href="{{ route('services.apostille') }}" class="group bg-white rounded-xl md:rounded p-4 md:p-6 border border-gray-300 hover:border-wens-green shadow-md hover:shadow-xl hover:-translate-y-1 md:hover:-translate-y-2 transition-all duration-300 relative overflow-hidden flex flex-col h-full">
+                    <div class="absolute top-0 left-0 w-1 h-full bg-wens-blue group-hover:bg-wens-green transition-colors"></div>
+                    <div class="w-10 h-10 md:w-12 md:h-12 bg-wens-light text-wens-blue rounded-lg flex items-center justify-center mb-3 md:mb-5 group-hover:text-wens-green group-hover:scale-110 group-hover:-rotate-12 transition-all duration-300">
+                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    </div>
+                    <div class="flex flex-col gap-1 mb-2">
+                        <span class="bg-wens-blue text-white rounded px-1.5 py-0.5 text-[8px] md:text-[10px] font-bold w-fit">LEGAL</span>
+                        <h3 class="text-sm md:text-lg font-bold text-wens-blue leading-tight">Apostille Services</h3>
+                    </div>
+                    <p class="text-xs md:text-sm text-wens-dark mb-3 md:mb-4 line-clamp-2 md:line-clamp-3 flex-grow">Fast and reliable Apostille services for all your personal and commercial documents.</p>
+                    <span class="text-wens-green text-xs md:text-sm font-bold flex items-center gap-1 group-hover:translate-x-1 md:group-hover:translate-x-2 transition-transform mt-auto">
+                        Learn more <svg class="w-3 h-3 md:w-3.5 md:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                     </span>
                 </a>
 
                 <!-- Visas -->
-                <a href="{{ route('services.visa') }}" class="group bg-white rounded p-8 border border-gray-100 hover:border-wens-green shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden">
+                <a href="{{ route('services.visa') }}" class="group bg-white rounded-xl md:rounded p-4 md:p-6 border border-gray-300 hover:border-wens-green shadow-md hover:shadow-xl hover:-translate-y-1 md:hover:-translate-y-2 transition-all duration-300 relative overflow-hidden flex flex-col h-full">
                     <div class="absolute top-0 left-0 w-1 h-full bg-wens-blue group-hover:bg-wens-green transition-colors"></div>
-                    <div class="w-14 h-14 bg-wens-light text-wens-blue rounded flex items-center justify-center mb-6 group-hover:text-wens-green transition-colors">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <div class="w-10 h-10 md:w-12 md:h-12 bg-wens-light text-wens-blue rounded-lg flex items-center justify-center mb-3 md:mb-5 group-hover:text-wens-green group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
-                    <div class="flex items-center gap-2 mb-3">
-                        <span class="bg-wens-blue text-white rounded px-2 py-0.5 text-xs font-bold">VISA</span>
-                        <h3 class="text-xl font-bold text-wens-blue">Global Visas</h3>
+                    <div class="flex flex-col gap-1 mb-2">
+                        <span class="bg-wens-blue text-white rounded px-1.5 py-0.5 text-[8px] md:text-[10px] font-bold w-fit">VISA</span>
+                        <h3 class="text-sm md:text-lg font-bold text-wens-blue leading-tight">Global Visas</h3>
                     </div>
-                    <p class="text-wens-dark mb-4">Umrah Visa, 5-Year UAE/Saudi Multi-Entry, Dubai/Oman/Bahrain/Qatar Tourist & Visit Visas.</p>
-                    <span class="text-wens-green font-bold flex items-center gap-1 group-hover:translate-x-2 transition-transform">
-                        Learn more <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    <p class="text-xs md:text-sm text-wens-dark mb-3 md:mb-4 line-clamp-2 md:line-clamp-3 flex-grow">Umrah Visa, 5-Year UAE/Saudi Multi-Entry, Dubai/Oman/Bahrain/Qatar Tourist & Visit Visas.</p>
+                    <span class="text-wens-green text-xs md:text-sm font-bold flex items-center gap-1 group-hover:translate-x-1 md:group-hover:translate-x-2 transition-transform mt-auto">
+                        Learn more <svg class="w-3 h-3 md:w-3.5 md:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                     </span>
                 </a>
 
                 <!-- Travel -->
-                <a href="{{ route('services.travel') }}" class="group bg-white rounded p-8 border border-gray-100 hover:border-wens-green shadow-sm hover:shadow-lg transition-all duration-300 relative overflow-hidden">
+                <a href="{{ route('services.travel') }}" class="group bg-white rounded-xl md:rounded p-4 md:p-6 border border-gray-300 hover:border-wens-green shadow-md hover:shadow-xl hover:-translate-y-1 md:hover:-translate-y-2 transition-all duration-300 relative overflow-hidden flex flex-col h-full">
                     <div class="absolute top-0 left-0 w-1 h-full bg-wens-blue group-hover:bg-wens-green transition-colors"></div>
-                    <div class="w-14 h-14 bg-wens-light text-wens-blue rounded flex items-center justify-center mb-6 group-hover:text-wens-green transition-colors">
-                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path></svg>
+                    <div class="w-10 h-10 md:w-12 md:h-12 bg-wens-light text-wens-blue rounded-lg flex items-center justify-center mb-3 md:mb-5 group-hover:text-wens-green group-hover:scale-110 group-hover:-rotate-12 transition-all duration-300">
+                        <svg class="w-5 h-5 md:w-6 md:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path></svg>
                     </div>
-                    <div class="flex items-center gap-2 mb-3">
-                        <span class="bg-wens-blue text-white rounded px-2 py-0.5 text-xs font-bold">TRAVEL</span>
-                        <h3 class="text-xl font-bold text-wens-blue">Travel & Tours</h3>
+                    <div class="flex flex-col gap-1 mb-2">
+                        <span class="bg-wens-blue text-white rounded px-1.5 py-0.5 text-[8px] md:text-[10px] font-bold w-fit">TRAVEL</span>
+                        <h3 class="text-sm md:text-lg font-bold text-wens-blue leading-tight">Travel & Tours</h3>
                     </div>
-                    <p class="text-wens-dark mb-4">Worldwide Hotel Bookings, Tour Packages, Domestic & International Flight Ticketing.</p>
-                    <span class="text-wens-green font-bold flex items-center gap-1 group-hover:translate-x-2 transition-transform">
-                        Learn more <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    <p class="text-xs md:text-sm text-wens-dark mb-3 md:mb-4 line-clamp-2 md:line-clamp-3 flex-grow">Worldwide Hotel Bookings, Tour Packages, Domestic & International Flight Ticketing.</p>
+                    <span class="text-wens-green text-xs md:text-sm font-bold flex items-center gap-1 group-hover:translate-x-1 md:group-hover:translate-x-2 transition-transform mt-auto">
+                        Learn more <svg class="w-3 h-3 md:w-3.5 md:h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                     </span>
                 </a>
             </div>
