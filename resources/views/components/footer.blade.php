@@ -57,6 +57,7 @@
             <p class="text-gray-400 text-sm">
                 &copy; {{ date('Y') }} WensDoc. All rights reserved.
             </p>
+            <a href="{{ url('/admin') }}" class="text-gray-500 hover:text-wens-green text-sm transition-colors">Admin Login</a>
         </div>
     </div>
 </footer>
